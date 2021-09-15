@@ -44,6 +44,9 @@ h3 {
   line-height: 25px;
   font-weight: normal;
 }
+h5 {
+  text-align: left !important;
+}
 header {
   height: 100vh;
   background-repeat: no-repeat;
