@@ -97,12 +97,10 @@
 .leftbox {
   float: left;
   width: 50%;
-  padding: 15px 75px 15px 75px;
 }
 .rightbox {
   margin-left: 50%;
 }
-
 .head1 {
   font-size: 33px;
   text-transform: capitalize;
@@ -128,7 +126,7 @@
   text-align: left;
 }
 
-.sec3 {
+.sec4 {
   background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpbGRyZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
   background-attachment: fixed;
   background-repeat: no-repeat;
