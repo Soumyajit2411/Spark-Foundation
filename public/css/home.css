@@ -1,0 +1,138 @@
+/* For carousel */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+.card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 990px) {
+  .card {
+    margin: 20px;
+  }
+}
+
+.card {
+  text-align: left;
+  margin: 25px;
+}
+
+.card-title {
+  color: black;
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.75rem;
+}
+
+.font-weight-light {
+  color: black;
+}
+
+#recipeCarousel {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.carousel-control-prev {
+  margin-left: -75px;
+}
+
+.carousel-control-next {
+  margin-right: -75px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.sec2 {
+  background-color: #f7fbfc;
+}
+.boxes {
+  width: 100%;
+}
+.leftbox {
+  float: left;
+  width: 50%;
+  padding: 15px 75px 15px 75px;
+}
+.rightbox {
+  margin-left: 50%;
+}
+
+.head1 {
+  font-size: 33px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0px;
+}
+.head2 {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.head3 {
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 1.42857143;
+  text-align: left;
+}
+
+.sec3 {
+  background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpbGRyZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
