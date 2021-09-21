@@ -53,6 +53,53 @@
   }
 }
 
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+
+header {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.center {
+  text-align: center;
+}
+.navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  position: relative;
+}
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.navbar-custom .nav-item .nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fab:hover {
+  color: #00aced;
+}
+
 .card {
   text-align: left;
   margin: 25px;
