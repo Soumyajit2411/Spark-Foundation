@@ -246,17 +246,17 @@ a {
   text-align: left;
 }
 
-.funds{
+.funds {
   background-color: rgba(255, 255, 255, 0.1);
-  padding:20px;
-  margin:10px;
-  width:250px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
   border-radius: 10px;
   margin: 0 auto;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
-.funds:hover{
+.funds:hover {
   transform: scale(1.2);
 }
 
@@ -272,7 +272,7 @@ a {
   margin: 0 auto;
   margin-bottom: 10px;
 }
-.fas {
+.fabss {
   font-size: 50px;
   line-height: 1.2;
   color: #fff;
@@ -284,4 +284,39 @@ a {
   color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
   text-align: center !important;
+}
+
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://images.unsplash.com/photo-1524601500432-1e1a4c71d692?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+blockquote:before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+cite img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
