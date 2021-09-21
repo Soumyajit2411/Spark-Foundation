@@ -222,3 +222,66 @@ a {
   text-align: center;
   color: #57667e;
 }
+
+.sec9 {
+  background-image: linear-gradient(rgba(6, 60, 63, 0.8), rgba(6, 60, 63, 0.8)),
+    url("https://images.unsplash.com/photo-1595561579181-263fe6175b73?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvb3IlMjBjaGlsZHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.heading1 {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.heading2 {
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.funds{
+  background-color: rgba(255, 255, 255, 0.1);
+  padding:20px;
+  margin:10px;
+  width:250px;
+  border-radius: 10px;
+  margin: 0 auto;
+  transition: transform .2s;
+}
+
+.funds:hover{
+  transform: scale(1.2);
+}
+
+.number {
+  font-size: 44px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.icon {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.fas {
+  font-size: 50px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.caption {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  text-align: center !important;
+}
