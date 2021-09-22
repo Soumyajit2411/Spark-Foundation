@@ -1,0 +1,11 @@
+.donate {
+  margin: 50px 400px 50px 400px;
+  padding: 25px;
+  border-style: outset;
+}
+.donate-btn {
+  margin-left: 125px !important;
+}
+.form-control {
+  padding: 5px 10px;
+}

@@ -20,8 +20,8 @@ app.get("/contact", (req, res) => {
   res.render("contact");
 });
 
-app.get("/donations", (req, res) => {
-  res.render("contact");
+app.get("/donation", (req, res) => {
+  res.render("donation");
 });
 
 app.listen(port, () => {
