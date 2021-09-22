@@ -20,6 +20,10 @@ app.get("/contact", (req, res) => {
   res.render("contact");
 });
 
+app.get("/donations", (req, res) => {
+  res.render("contact");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
