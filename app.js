@@ -102,7 +102,7 @@ app.get("/donation", (req, res) => {
 });
 
 app.get("/success", (req, res) => {
-  res.render("success");
+  res.sendFile(__dirname + "/success.html");
 });
 
 app.post("/order", (req, res) => {
