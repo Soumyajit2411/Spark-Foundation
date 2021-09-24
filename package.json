@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Soumyajit2411/AnsrCoach#readme",
   "dependencies": {
+    "easyinvoice": "^1.0.147",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^6.0.5",
