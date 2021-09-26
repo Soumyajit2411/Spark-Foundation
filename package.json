@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "14.17.6"
+  },
   "bugs": {
     "url": "https://github.com/Soumyajit2411/AnsrCoach/issues"
   },
