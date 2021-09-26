@@ -1,6 +1,6 @@
 # AnsrCoach
 
-<h2> A simple To Do List application built with Node.js and Express</h2>
+<h2> A simple Ngo app built with Node.js and Express</h2>
 
 Nodejs application that let's you add and complete task on a single page, storing both new and completed task in a different array.This appllication makes use of:
 
@@ -9,7 +9,7 @@ Nodejs application that let's you add and complete task on a single page, storin
  <li>Mongoose - Mongoose provides a straight-forward, schema-based solution to model your application data</li>
 </ul>
  
-<p>How to use the todo-list :<p>
+<p>How to donate<p>
 
 <ul>
   <li>Visit to the link : https://to-do-list-nodejs-api-backend.herokuapp.com/ </li>
