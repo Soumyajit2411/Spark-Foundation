@@ -12,11 +12,10 @@ Nodejs application that let's you add and complete task on a single page, storin
 <p>How to donate<p>
 
 <ul>
-  <li>Visit to the link : https://to-do-list-nodejs-api-backend.herokuapp.com/ </li>
-  <li>You can use the Today Todo-s List .</li>
-  <li>Or you can create any custom list : [site_url/list_name].</li>
- <li>Like:- https://to-do-list-nodejs-api-backend.herokuapp.com/soumyajit .</li>
-  <li>Note :- don't use spaces in the list_name .</li>
+  <li>Visit to the link : https://dry-crag-37402.herokuapp.com/ </li>
+  <li>You can click the donate and you will be redirected in the razorpay payment gateway .</li>
+ <li>You can donate using any method you want .</li>
+ <li>Then you will get a success message in email the receit also .</li>
 </ul>
 <br>
 <p> How to run the app locally: </p>
