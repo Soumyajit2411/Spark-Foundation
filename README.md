@@ -1,4 +1,4 @@
-# AnsrCoach
+# Spark Foundation
 
 <h2> A simple Ngo app built with Node.js and Express</h2>
 
